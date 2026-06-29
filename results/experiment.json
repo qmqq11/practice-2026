@@ -1,0 +1,30 @@
+{
+    "name": "Base experiment",
+    "timestamp": "2026-06-29T12:06:22.254709",
+    "config": {
+        "name": "Base experiment",
+        "model": {
+            "alpha": 1.0,
+            "beta": 0.1,
+            "delta": 0.075,
+            "gamma": 1.5
+        },
+        "control": {
+            "T": 1.0,
+            "control_type": "additive"
+        },
+        "sim": {
+            "t_max": 100.0,
+            "n_eval": 10000,
+            "x0_frac": 1.5,
+            "y0_frac": 0.5,
+            "rtol": 1e-08
+        }
+    },
+    "metrics": {
+        "tau": 4.610461046104611,
+        "max_psi": 10.0,
+        "max_u": 25.0,
+        "e_final": 3.098369703025128e-07
+    }
+}

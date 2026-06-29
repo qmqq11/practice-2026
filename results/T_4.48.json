@@ -1,0 +1,30 @@
+{
+    "name": "T=4.48",
+    "timestamp": "2026-06-29T12:06:25.399528",
+    "config": {
+        "name": "T=4.48",
+        "model": {
+            "alpha": 1.0,
+            "beta": 0.1,
+            "delta": 0.075,
+            "gamma": 1.5
+        },
+        "control": {
+            "T": 4.484210526315789,
+            "control_type": "additive"
+        },
+        "sim": {
+            "t_max": 100.0,
+            "n_eval": 10000,
+            "x0_frac": 1.5,
+            "y0_frac": 0.5,
+            "rtol": 1e-08
+        }
+    },
+    "metrics": {
+        "tau": 20.652065206520653,
+        "max_psi": 10.0,
+        "max_u": 268.8024941516212,
+        "e_final": 5.635246935753457e-09
+    }
+}

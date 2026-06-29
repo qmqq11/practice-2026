@@ -1,0 +1,30 @@
+{
+    "name": "T=2.16",
+    "timestamp": "2026-06-29T12:06:25.198169",
+    "config": {
+        "name": "T=2.16",
+        "model": {
+            "alpha": 1.0,
+            "beta": 0.1,
+            "delta": 0.075,
+            "gamma": 1.5
+        },
+        "control": {
+            "T": 2.1631578947368424,
+            "control_type": "additive"
+        },
+        "sim": {
+            "t_max": 100.0,
+            "n_eval": 10000,
+            "x0_frac": 1.5,
+            "y0_frac": 0.5,
+            "rtol": 1e-08
+        }
+    },
+    "metrics": {
+        "tau": 9.97099709970997,
+        "max_psi": 10.0,
+        "max_u": 30.650727665861965,
+        "e_final": 7.191697548591947e-08
+    }
+}
